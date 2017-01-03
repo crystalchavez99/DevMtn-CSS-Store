@@ -12,3 +12,4 @@ Yuck! What an ugly template! Today we are going to go over positioning, flexbox,
 #### Detail
 In my opinion, flexbox is the easiest way to get elements exactly where you want on the page. We are going to start by centering the header and header description. To start using flexbox we use the `display` attribute in our CSS. 
 If we look at the index.html we can see that the header lives in a div with id of `container-header` let's open up our `main.css` inside our `styles` folder.
+![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/step1.png "Step 1")
