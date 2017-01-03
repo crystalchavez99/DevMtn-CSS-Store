@@ -41,3 +41,5 @@ Sweet, we got our header in the center of the screen with three lines of code! B
 If we take a look in our `index.html` we can see our menu has an ID of `#menu-icon`, let's make some changes in our `main.css` file. With the attribute of `position` we can assign `absolute` to "break" free of flexbox!
 
 Once `position: absolute` is assigned we have the freedom of placing the element where-ever, down to the exact pixel! We can do this using the attributes of `top, right, left, bottom`. Knowing this, how could we get our hamburger menu 30 pixels from the top and right of our page?
+
+![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/positionMenu.png "Position Menu")
