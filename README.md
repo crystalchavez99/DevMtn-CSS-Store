@@ -18,3 +18,4 @@ If we look at the index.html we can see that the header lives in a div with id o
 	height: 100px;
 }
 ```
+If we add an attribute of `display: flex;` We will then see all the elements shift to the same line and our hamburger menu get stretched out. Flex has certain attributes that allow us to manipulate how the elements are arranged in our new "flex box".
