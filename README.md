@@ -74,3 +74,5 @@ Using the `align-items` attribute allows us to get the horizontal center, let's 
 	justify-content: center;
 }
 ```
+
+## Step 4 - Box model
