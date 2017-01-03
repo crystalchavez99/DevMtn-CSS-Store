@@ -8,3 +8,4 @@ Before we get started there are a couple of things we need to do. Start by forki
 ## Getting Started
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/unfinished.png "Unfinished Template")
 #### Summary
+Yuck! What an ugly template! Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. Having a beautiful UI is just as important as a stable UX. To begin we are going to look at the title section.
