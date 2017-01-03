@@ -60,3 +60,5 @@ Flexbox gives us the freedom to not only center horizontally but also vertically
 
 #### Detail
 Using the `align-items` attribute allows us to get the horizontal center, let's take a look at the `justify-content` attribute to get our vertical center.
+
+![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/justifyContent.png "Justify Content")
