@@ -55,3 +55,5 @@ Once `position: absolute` is assigned we have the freedom of placing the element
 ```
 
 ## Step 3 - Flexbox centering vertically & horizontally
+#### Summary
+Flexbox gives us the freedom to not only center horizontally but also vertically. Our menu on the right has great spacing from the borders of the webpage, however now our header appears to close to border.
