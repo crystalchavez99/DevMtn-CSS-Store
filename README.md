@@ -34,3 +34,4 @@ Let's return to our `main.css` file and checkout what `flex-direction` and `alig
 }
 ```
 ## Step 2 - Using positioning with flexbox
+Sweet, we got our header in the center of the screen with three lines of code! But what the heck are we going to do about our menu? We can use positioning along side flexbox to get the perfect UI we are going for.
