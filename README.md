@@ -43,3 +43,13 @@ If we take a look in our `index.html` we can see our menu has an ID of `#menu-ic
 Once `position: absolute` is assigned we have the freedom of placing the element where-ever, down to the exact pixel! We can do this using the attributes of `top, right, left, bottom`. Knowing this, how could we get our hamburger menu 30 pixels from the top and right of our page?
 
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/positionMenu.png "Position Menu")
+
+#### Code
+```css
+#menu-icon {
+	width: 35px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+```
