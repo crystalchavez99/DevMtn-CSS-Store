@@ -20,7 +20,7 @@ If we look at the index.html we can see that the header lives in a div with id o
 ```
 If we add an attribute of `display: flex;` We will then see all the elements shift to the same line and our hamburger menu get stretched out. When examining the elements we can see that the width is the exact width of the element, however it gave the height of the container to all the elements `(#container-header)`. This is what caused our hamburger menu to get stretched out. Flex has certain attributes that allow us to manipulate how the elements are arranged in our new "flex box" `(#container-header)`.
 
-Let's return to our `main.css` file and checkout what `flex-direction` and `align-items` can do for us. If we add the attribute `flex-direction: column;` to `#container-header` we see our elements stack on top of each other again, however they aren't in the center. We can move them to the center using `align-items: center` 
+Let's return to our `main.css` file and checkout what `flex-direction` and `align-items` can do for us. If we add the attribute `flex-direction: column;` to `#container-header` we see our elements stack on top of each other again, however they aren't in the center. We can move them to the center using `align-items: center`. 
 
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/center-header.png "Center Header")
 #### Code
@@ -56,4 +56,4 @@ Once `position: absolute` is assigned we have the freedom of placing the element
 
 ## Step 3 - Flexbox centering vertically & horizontally
 #### Summary
-Flexbox gives us the freedom to not only center horizontally but also vertically. Our menu on the right has great spacing from the borders of the webpage, however now our header appears too close to border. Using the `align-items` allows us to get the horizontal center, let's take a look at the `justify-content` attribute to get our vertical center
+Flexbox gives us the freedom to not only center horizontally but also vertically. Our menu on the right has great spacing from the borders of the webpage, however now our header appears too close to the border. Using the `align-items` attribute allows us to get the horizontal center, let's take a look at the `justify-content` attribute to get our vertical center.
