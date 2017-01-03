@@ -53,3 +53,5 @@ Once `position: absolute` is assigned we have the freedom of placing the element
 	left: 30px;
 }
 ```
+
+## Step 3 - Flexbox centering vertically & horizontally
