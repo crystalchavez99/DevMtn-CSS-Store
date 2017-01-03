@@ -5,7 +5,7 @@
 ## Setup
 Before we get started there are a couple of things we need to do. Start by forking this repository. Once forked be sure to `npm i` or `yarn install` to get the development node_modules (make sure your terminal is in the same directory as the package.json file). The node_modules contains `lite-server` so we can see changes update automatically for us. After you are finished installing, run the following command in your terminal: `npm run lite` (make sure your terminal is in the same directory as the package.json file). You should then see your default browser open up our unfinished template.
 
-## Getting Started
+## Getting Started - The Header
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/unfinished.png "Unfinished Template")
 #### Summary
 Yuck! What an ugly template! Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. Having a beautiful UI is just as important as a stable UX. To begin we are going to look at the title section using flexbox and positioning.
@@ -33,3 +33,4 @@ Let's return to our `main.css` file and checkout what `flex-direction` and `alig
 	align-items: center;
 }
 ```
+## Step 2 - Using positioning with flexbox
