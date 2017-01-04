@@ -41,6 +41,18 @@ h2 {
 	margin-top: 15px;
 }
 
+#products-container {
+	display: flex;
+	justify-content: center;
+}
+
+.product-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .product-img {
 	width: 315px;
 }

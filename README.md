@@ -113,3 +113,5 @@ Once we've added `margin-top: 15px` notice how our header is now extremely close
 
 ## Step 5 - Challenge
 #### Summary
+In this step there won't be a detail section. Try to use only flexbox and margins to achieve the following picture. To clarify, we are trying to get the products to be horizontally centered with a 5px margin on the right and left.
+
