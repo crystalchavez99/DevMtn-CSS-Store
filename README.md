@@ -80,3 +80,5 @@ Using the `align-items` attribute allows us to get the horizontal center, let's 
 You can consider the box model as the model for every element that is on your page. There is essentially a "box" surronding each element and the "box" has multiple "layers." Take a look at the following picture:
 
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/boxModel.png "Box Model")
+
+The blue represents the current width and height of the selected element, essentially what you see on the screen. The very next layer is called the padding, the padding is the spacing between the element and its border. Padding is useful if you have a container and you do not want elements inside the container to press up against its border. After the padding is the border and then the margin. If an element has no margin, the element "ends" at its border which can be visible if you choose. But say you have two elements pushed up against each other at their borders, that's where margin comes in to play. Margin allows us to specify a spacing from the border out.
