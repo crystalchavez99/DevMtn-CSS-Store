@@ -127,3 +127,6 @@ Our template is almost finished. If we take a look at the information of the pro
 HINT: With our current styles the `.product-container` is in a `flex-direction` of `column`, so it will put each element on top of each other...
 
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/finishedTemplate.png "Finished Template")
+
+[Click Me For HTML Solution](http://pastebin.com/eX2wPWH3)
+[Click Me For CSS Solution](http://pastebin.com/E986w0rn)
