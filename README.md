@@ -93,3 +93,20 @@ Let's take a look in our `index.html`, there are multiple ways to solve this pro
 Once we've added `margin-top: 15px` notice how our header is now extremely close to the border of the browser again. The reason this is happening is because the height of our header container is only 100px and we are running out of space. Our flexbox property `justify-content` is vertically centering all the elements in the container (`#container-header`). Because flexbox is vertically centering based on height, we can set the height of `#container-header` to 130px to achieve the spacing again.
 
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/spacing.png "Spacing")
+
+#### Code
+```css
+#container-header {
+	width: 100%;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#header-description {
+	margin-top: 15px;
+}
+
+```
