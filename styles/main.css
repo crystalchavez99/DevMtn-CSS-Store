@@ -60,10 +60,13 @@ h2 {
 .product-header {
 	font-weight: bold;
 	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .product-description {
 	color: grey;
+	margin-bottom: 5px;
 }
 
 .product-sale-price {
