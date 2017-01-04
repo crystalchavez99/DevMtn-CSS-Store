@@ -119,3 +119,7 @@ In this step there won't be a detail section. Try to use only flexbox and margin
 
 #### Solution
 [Click Me For The Solution](http://pastebin.com/0twY1wKd)
+
+## Step 6 - Finishing Touches
+#### Summary
+Our template is almost finished. If we take a look at the information of the products they are squished together and also our prices are not on the same line.
