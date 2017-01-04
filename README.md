@@ -88,3 +88,4 @@ For example, if you have a square (25 by 25 pixels) on your dom, you can apply a
 Knowing this we are going to put spacing between the header and the header description using `margin` to get a cleaner UI.
 
 #### Detail
+Let's take a look in our `index.html`, there are multiple ways to solve this problem, we could either add a `margin-bottom` to the header or a `margin-top` to the header description. Since the header description already has an `ID` (`#header-description`), let's go with adding a `margin-top`.
