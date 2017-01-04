@@ -11,7 +11,7 @@ Before we get started there are a couple of things we need to do. Start by forki
 Yuck! What an ugly template! Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. Having a beautiful UI is just as important as a stable UX. To begin we are going to look at the title section using flexbox and positioning.
 #### Detail
 In my opinion, flexbox is the easiest way to get elements exactly where you want on the page. We are going to start by centering the header and header description. To start using flexbox we use the `display` attribute in our CSS. 
-If we look at the index.html we can see that the header lives in a div with id of `container-header` let's open up our `main.css` inside our `styles` folder.
+If we look at the `index.html` we can see that the header lives in a div with id of `container-header` let's open up our `main.css` inside our `styles` folder.
 ```css
 #container-header {
 	width: 100%;
@@ -76,3 +76,5 @@ Using the `align-items` attribute allows us to get the horizontal center, let's 
 ```
 
 ## Step 4 - Box model
+#### Summary
+You can consider the box model as the model for every element that is on your page. There is essentially a "box" surronding each element and the "box" has multiple "layers." Take a look at the following picture:
