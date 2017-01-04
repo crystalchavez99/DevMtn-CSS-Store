@@ -86,3 +86,5 @@ The blue represents the current width and height of the selected element, essent
 For example, if you have a square (25 by 25 pixels) on your dom, you can apply a `margin-right` of 20px. This takes your element and makes it 45px by 25px, however you do not see the additional 20px added on to the element. `Margin` helps, in this case, to make sure that no element can get within 20px to the right of the element. 
 
 Knowing this we are going to put spacing between the header and the header description using `margin` to get a cleaner UI.
+
+#### Detail
