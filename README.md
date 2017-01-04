@@ -128,6 +128,7 @@ HINT: With our current styles the `.product-container` is in a `flex-direction` 
 
 ![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/finishedTemplate.png "Finished Template")
 
+#### Solution
 [Click Me For HTML Solution](http://pastebin.com/eX2wPWH3)
 
 [Click Me For CSS Solution](http://pastebin.com/E986w0rn)
