@@ -37,6 +37,10 @@ h2 {
 	top: 30px;
 }
 
+#header-description {
+	margin-top: 15px;
+}
+
 .product-img {
 	width: 315px;
 }
