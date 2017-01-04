@@ -78,3 +78,4 @@ Using the `align-items` attribute allows us to get the horizontal center, let's 
 ## Step 4 - Box model
 #### Summary
 You can consider the box model as the model for every element that is on your page. There is essentially a "box" surronding each element and the "box" has multiple "layers." Take a look at the following picture:
+![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/boxModel.png "Box Model")
