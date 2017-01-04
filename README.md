@@ -110,3 +110,6 @@ Once we've added `margin-top: 15px` notice how our header is now extremely close
 }
 
 ```
+
+## Step 5 - Challenge
+#### Summary
