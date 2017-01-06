@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"lite": "lite-server"
+    "lite": "lite-server",
+    "karma": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,16 @@
   },
   "homepage": "https://github.com/j-lemire/CSS#readme",
   "devDependencies": {
-    "lite-server": "^2.2.2"
+    "browserify": "^13.3.0",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-quixote": "^0.1.0",
+    "lite-server": "^2.2.2",
+    "quixote": "^0.12.3",
+    "watchify": "^3.8.0"
   }
 }
