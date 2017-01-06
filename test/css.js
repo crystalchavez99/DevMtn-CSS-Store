@@ -13,11 +13,8 @@ describe("DevMtn-CSS-Store", function() {
 
 	beforeEach(function(done) {
 		frame.reload(done);
-	});
-
-	beforeEach(function() {
 		containerHeader = frame.get("#container-header");
-	});
+	}, done);
 
 	it('Header container is 100% in width', function() {
 		containerHeader.assert({
