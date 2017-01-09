@@ -1,20 +1,20 @@
 describe("DevMtn-CSS-Store", function() {
 	var frame, containerHeader;
 
-	before(function(done) {
+	beforeAll(function() {
 		frame = quixote.createFrame({
 			src: "/"
-		}, done);
+		});
 	});
 
-	after(function() {
+	afterAll(function() {
 		frame.remove();
 	});
 
-	beforeEach(function(done) {
-		frame.reload(done);
+	beforeEach(function() {
+		frame.reload();
 		containerHeader = frame.get("#container-header");
-	}, done);
+	});
 
 	it('Header container is 100% in width', function() {
 		containerHeader.assert({
