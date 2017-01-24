@@ -6,7 +6,7 @@
 Before we get started there are a couple of things we need to do. Start by forking this repository. Once forked be sure to `npm i` or `yarn install` to get the development node_modules (make sure your terminal is in the same directory as the package.json file). The node_modules contains `lite-server` so we can see changes update automatically for us. After you are finished installing, run the following command in your terminal: `npm run lite` (make sure your terminal is in the same directory as the package.json file). You should then see your default browser open up our unfinished template.
 
 ## Step 1 - The Header
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/2.png "Unfinished Template")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/2.png "Unfinished Template")
 #### Summary
 Yuck! What an ugly template! Think about this site from a user's perspective, would you take this website seriously? UI is extremely important, sometimes even more important than the functionality of the website. Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. To begin we are going to look at the title section using flexbox and positioning.
 #### Detail
@@ -22,7 +22,7 @@ If we add an attribute of `display: flex;` We will then see all the elements shi
 
 Let's return to our `main.css` file and checkout what `flex-direction` and `align-items` can do for us. If we add the attribute `flex-direction: column;` to `#container-header` we see our elements stack on top of each other again, however they aren't in the center. We can move them to the center using `align-items: center`. 
 
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/3.png "Center Header")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/3.png "Center Header")
 #### Code
 ```css
 #container-header {
@@ -42,7 +42,7 @@ If we take a look in our `index.html` we can see our menu has an ID of `#menu-ic
 
 Once `position: absolute` is assigned we have the freedom of placing the element where-ever, down to the exact pixel! We can do this using the attributes of `top, right, left, bottom`. Knowing this, how could we get our hamburger menu 30 pixels from the top and right of our page?
 
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/4.png "Position Menu")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.png "Position Menu")
 
 #### Code
 ```css
@@ -61,7 +61,7 @@ Flexbox gives us the freedom to not only center horizontally but also vertically
 #### Detail
 Using the `align-items` attribute allows us to get the horizontal center, let's take a look at the `justify-content` attribute to get our vertical center.
 
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/5.png "Justify Content")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/5.png "Justify Content")
 
 #### Code
 ```css
@@ -79,7 +79,7 @@ Using the `align-items` attribute allows us to get the horizontal center, let's 
 #### Summary
 You can consider the box model as the model for every element that is on your page. There is essentially a "box" surronding each element and the "box" has multiple "layers." Take a look at the following picture:
 
-![alt text](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/boxModel.png "Box Model")
+![alt text](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/boxModel.png "Box Model")
 
 The blue represents the current `width` and `height` of the selected element, essentially what you see on the screen. The very next layer is called the `padding`, the `padding` is the spacing between the element and its `border`. `Padding` is useful if you have a container and you do not want elements inside the container to press up against its `border`. After the `padding` is the `border` and then the `margin`. If an element has no `margin`, the element "ends" at its `border` which can be visible if you choose. But say you have two elements pushed up against each other at their borders, that's where `margin` comes in to play. `Margin` allows us to specify a spacing from the `border` out.
 
@@ -92,7 +92,7 @@ Let's take a look in our `index.html`, there are multiple ways to solve this pro
 
 Once we've added `margin-top: 15px` notice how our header is now extremely close to the border of the browser again. The reason this is happening is because the height of our header container is only 100px and we are running out of space. Our flexbox property `justify-content` is vertically centering all the elements in the container (`#container-header`). Because flexbox is vertically centering based on height, we can set the height of `#container-header` to 130px to achieve the spacing again.
 
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/6.png "Spacing")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/6.png "Spacing")
 
 #### Code
 ```css
@@ -115,10 +115,10 @@ Once we've added `margin-top: 15px` notice how our header is now extremely close
 #### Summary
 In this step there won't be a detail section. Try to use only flexbox and margins to achieve the following picture. To clarify, we are trying to get the products to be horizontally centered with a 5px margin on the right and left. Hint: When you do not specify a `flex-direction`, `align-items` and `justify-content` are inversed.
 
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/7.png "Challenge")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/7.png "Challenge")
 
 #### Solution
-[Click Me For The Solution](http://pastebin.com/0twY1wKd)
+[Click Me For The Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.md)
 
 ## Step 6 - Finishing Touches - Challenge
 #### Summary
@@ -126,7 +126,7 @@ Our template is almost finished. If we take a look at the information of the pro
 
 HINT: With our current styles the `.product-container` is in a `flex-direction` of `column`, so it will put each element on top of each other...
 
-![png](https://github.com/j-lemire/DevMtn-CSS-Store/blob/master/readme/1.png "Finished Template")
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.png "Finished Template")
 
 #### Solution
 [Click Me For HTML Solution](http://pastebin.com/eX2wPWH3)

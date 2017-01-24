@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j-lemire/CSS.git"
+    "url": "git+https://github.com/devlemire/CSS.git"
   },
   "author": "James Lemire",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/j-lemire/CSS/issues"
+    "url": "https://github.com/devlemire/CSS/issues"
   },
-  "homepage": "https://github.com/j-lemire/CSS#readme",
+  "homepage": "https://github.com/devlemire/CSS#readme",
   "devDependencies": {
     "browserify": "^13.3.0",
     "jasmine": "^2.5.2",
