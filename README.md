@@ -12,7 +12,7 @@ Before we get started there are a couple of things we need to do. Start by forki
 Yuck! What an ugly template! Think about this site from a user's perspective, would you take this website seriously? UI is extremely important, sometimes even more important than the functionality of the website. Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. To begin we are going to look at the title section using flexbox and positioning.
 
 #### Instructions
-Using only the `display`, `flex-direction`, and `align-items` attribute get the `#container-header` to be in the center of the webpage with the elements inside of it stacked vertically.
+Using only the `display`, `flex-direction`, and `align-items` attributes get the `#container-header` to be in the center of the webpage with the elements inside of it stacked vertically.
 #### Detailed Instructions
 We are going to start by centering the header and header description. To start using flexbox we use the `display` attribute in our CSS. 
 If we look at the `index.html` we can see that the header lives in a div with id of `container-header` let's open up our `main.css` inside our `styles` folder.
