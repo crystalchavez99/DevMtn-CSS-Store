@@ -94,7 +94,7 @@ Hint: When you do not specify a `flex-direction`, `align-items` and `justify-con
 [Code Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.md)
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/7.png "Challenge")
 
-## Step 6 - Finishing Touches - Challenge
+## Step 6 - Challenge
 #### Summary
 Our template is almost finished. If we take a look at the information of the products they are squished together and also our prices are not on the same line. Using margins how could we achieve 5px spacing between each element ( The product image, header, description, and price ). There is no need for a `margin-bottom` on the prices. The trickiest part of this challenge is getting the prices on the same line WITHOUT css. How could we edit the HTML to achieve this?
 
