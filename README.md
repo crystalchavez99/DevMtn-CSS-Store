@@ -26,9 +26,9 @@ If we add an attribute of `display: flex;` We will then see all the elements shi
 
 Let's return to our `main.css` file and checkout what `flex-direction` and `align-items` can do for us. If we add the attribute `flex-direction: column;` to `#container-header` we see our elements stack on top of each other again, however they aren't in the center. We can move them to the center using `align-items: center`. 
 
+#### Solution
+[Code Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.md)
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/3.png "Center Header")
-#### Code
-[Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.md)
 ## Step 2 - Using positioning with flexbox
 #### Summary
 Sweet, we got our header in the center of the screen with three lines of code! But what about our menu? Flexbox is forcing it into the next row. We can use positioning along side flexbox to get the perfect UI we are going for. In this step we are going to get our hamburger menu to be in the upper-right of our page.
