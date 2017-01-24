@@ -86,7 +86,9 @@ Once we've added `margin-top: 15px` notice how our header is now extremely close
 
 ## Step 5 - Challenge
 #### Summary
-In this step there won't be a detail section. Try to use only flexbox and margins to achieve the following picture. To clarify, we are trying to get the products to be horizontally centered with a 5px margin on the right and left. Hint: When you do not specify a `flex-direction`, `align-items` and `justify-content` are inversed.
+In this step there won't be a detail section. Try to use only flexbox and margins to achieve the following picture. To clarify, we are trying to get the products to be horizontally centered with a 5px margin on the right and left. 
+
+Hint: When you do not specify a `flex-direction`, `align-items` and `justify-content` are inversed.
 
 #### Solution
 [Code Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.md)
@@ -96,7 +98,7 @@ In this step there won't be a detail section. Try to use only flexbox and margin
 #### Summary
 Our template is almost finished. If we take a look at the information of the products they are squished together and also our prices are not on the same line. Using margins how could we achieve 5px spacing between each element ( The product image, header, description, and price ). There is no need for a `margin-bottom` on the prices. The trickiest part of this challenge is getting the prices on the same line WITHOUT css. How could we edit the HTML to achieve this?
 
-HINT: With our current styles the `.product-container` is in a `flex-direction` of `column`, so it will put each element on top of each other...
+Hint: With our current styles the `.product-container` is in a `flex-direction` of `column`, so it will put each element on top of each other...
 
 #### Solution
 [HTML Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/2.md)
