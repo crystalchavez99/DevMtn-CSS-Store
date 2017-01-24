@@ -28,7 +28,7 @@ Let's return to our `main.css` file and checkout what `flex-direction` and `alig
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/3.png "Center Header")
 #### Code
-[Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.md);
+[Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.md)
 ## Step 2 - Using positioning with flexbox
 #### Summary
 Sweet, we got our header in the center of the screen with three lines of code! But what about our menu? Flexbox is forcing it into the next row. We can use positioning along side flexbox to get the perfect UI we are going for. In this step we are going to get our hamburger menu to be in the upper-right of our page.
