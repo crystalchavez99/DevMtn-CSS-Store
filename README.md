@@ -72,29 +72,17 @@ For example, if you have a square (25 by 25 pixels) on your dom, you can apply a
 
 Knowing this we are going to put spacing between the header and the header description using `margin` to get a cleaner UI.
 
-#### Detail
+#### Instructions
+Change the height of `#container-header` to 130px and set the top margin of `#header-description` to 15px.
+
+#### Detailed Instructions
 Let's take a look in our `index.html`, there are multiple ways to solve this problem, we could either add a `margin-bottom` to the header or a `margin-top` to the header description. Since the header description already has an `ID` (`#header-description`), let's go with adding a `margin-top` of 15px.
 
 Once we've added `margin-top: 15px` notice how our header is now extremely close to the border of the browser again. The reason this is happening is because the height of our header container is only 100px and we are running out of space. Our flexbox property `justify-content` is vertically centering all the elements in the container (`#container-header`). Because flexbox is vertically centering based on height, we can set the height of `#container-header` to 130px to achieve the spacing again.
 
+#### Solution
+[Code Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/7.md)
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/6.png "Spacing")
-
-#### Code
-```css
-#container-header {
-	width: 100%;
-	height: 130px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-#header-description {
-	margin-top: 15px;
-}
-
-```
 
 ## Step 5 - Challenge
 #### Summary
