@@ -108,3 +108,13 @@ Hint: With our current styles the `.product-container` is in a `flex-direction` 
 
 ## Black Diamond
 #### Summary
+The company wants to experiment with expanding its product list. Copy our current four products and paste them underneath our last one. The `#products-container` should now have 8 products. In this challenge we are going to make it so the `#products-container` is scrollable NOT the entire webpage. 
+
+#### Instructions
+Make the `#products-container` a carousel that the user has to scroll vertically through. Scrolling should NOT scroll the entire webpage. There should be 8 products, the order doesn't matter and you can find different images if you like instead of copying the previous four. The scrollbar for the carousel should only be visible when scrolling and the scrollbar should not overlap any elements. 
+
+#### Solution
+[HTML Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/8.md)
+
+[CSS Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/9.md)
+![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/black-diamond.png)
