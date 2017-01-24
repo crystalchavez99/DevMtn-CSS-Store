@@ -106,3 +106,5 @@ Hint: With our current styles the `.product-container` is in a `flex-direction` 
 [CSS Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/3.md)
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.png "Finished Template")
 
+## Black Diamond
+#### Summary
