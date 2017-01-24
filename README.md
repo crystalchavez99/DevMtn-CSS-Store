@@ -12,7 +12,7 @@ Before we get started there are a couple of things we need to do. Start by forki
 Yuck! What an ugly template! Think about this site from a user's perspective, would you take this website seriously? UI is extremely important, sometimes even more important than the functionality of the website. Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. To begin we are going to look at the title section using flexbox and positioning.
 
 #### Instructions
-Using only the `display`, `flex-direction`, and `align-items` attributes get the `#container-header` to be in the center of the webpage with the elements inside of it stacked vertically.
+Using only the `display`, `flex-direction`, and `align-items` attributes get the `#container-header` to be horizontally centered on the webpage with the elements inside of it stacked vertically.
 #### Detailed Instructions
 We are going to start by centering the header and header description. To start using flexbox we use the `display` attribute in our CSS. 
 If we look at the `index.html` we can see that the header lives in a div with id of `container-header` let's open up our `main.css` inside our `styles` folder.
@@ -33,43 +33,32 @@ Let's return to our `main.css` file and checkout what `flex-direction` and `alig
 #### Summary
 Sweet, we got our header in the center of the screen with three lines of code! But what about our menu? Flexbox is forcing it into the next row. We can use positioning along side flexbox to get the perfect UI we are going for. In this step we are going to get our hamburger menu to be in the upper-right of our page.
 
-#### Detail
+#### Instructions
+Position the menu-icon in the right-corner of the webpage. Specifically 30px from the top and right of the webpage.
+
+#### Detailed Instructions
 If we take a look in our `index.html` we can see our menu has an ID of `#menu-icon`, let's make some changes in our `main.css` file. With the attribute of `position` we can assign `absolute` to "break" free of flexbox!
 
 Once `position: absolute` is assigned we have the freedom of placing the element where-ever, down to the exact pixel! We can do this using the attributes of `top, right, left, bottom`. Knowing this, how could we get our hamburger menu 30 pixels from the top and right of our page?
 
+#### Solution
+[Code Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/5.md)
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.png "Position Menu")
 
-#### Code
-```css
-#menu-icon {
-	width: 35px;
-	position: absolute;
-	top: 30px;
-	right: 30px;
-}
-```
 
 ## Step 3 - Flexbox centering vertically & horizontally
 #### Summary
 Flexbox gives us the freedom to not only center horizontally but also vertically. Our menu on the right has great spacing from the borders of the webpage, however now our header appears too close to the border. 
 
-#### Detail
-Using the `align-items` attribute allows us to get the horizontal center, let's take a look at the `justify-content` attribute to get our vertical center.
+#### Instructions
+Vertically center the elements inside the `#container-header`.
 
+#### Detailed Instructions
+We know that using the `align-items` attribute allows us to get the horizontal center. There is also an attribute called `justify-content` that allows for vertical centering. Let's add the attribute `justify-content` with the value of `center` to our `#container-header`.
+
+#### Solution
+[Code Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/6.md)
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/5.png "Justify Content")
-
-#### Code
-```css
-#container-header {
-	width: 100%;
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-```
 
 ## Step 4 - Box model
 #### Summary
