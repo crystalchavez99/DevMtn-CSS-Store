@@ -10,8 +10,11 @@ Before we get started there are a couple of things we need to do. Start by forki
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/2.png "Unfinished Template")
 #### Summary
 Yuck! What an ugly template! Think about this site from a user's perspective, would you take this website seriously? UI is extremely important, sometimes even more important than the functionality of the website. Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. To begin we are going to look at the title section using flexbox and positioning.
-#### Detail
-In my opinion, flexbox is the easiest way to get elements exactly where you want on the page. We are going to start by centering the header and header description. To start using flexbox we use the `display` attribute in our CSS. 
+
+#### Instructions
+Using only the `display`, `flex-direction`, and `align-items` attribute get the `#container-header` to be in the center of the webpage with the elements inside of it stacked vertically.
+#### Detailed Instructions
+We are going to start by centering the header and header description. To start using flexbox we use the `display` attribute in our CSS. 
 If we look at the `index.html` we can see that the header lives in a div with id of `container-header` let's open up our `main.css` inside our `styles` folder.
 ```css
 #container-header {
@@ -25,15 +28,7 @@ Let's return to our `main.css` file and checkout what `flex-direction` and `alig
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/3.png "Center Header")
 #### Code
-```css
-#container-header {
-	width: 100%;
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-```
+[Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.md);
 ## Step 2 - Using positioning with flexbox
 #### Summary
 Sweet, we got our header in the center of the screen with three lines of code! But what about our menu? Flexbox is forcing it into the next row. We can use positioning along side flexbox to get the perfect UI we are going for. In this step we are going to get our hamburger menu to be in the upper-right of our page.
